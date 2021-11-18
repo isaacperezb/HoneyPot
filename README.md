@@ -22,8 +22,11 @@ Primero debemos configurar la zona donde nos encontremos deberemos seguir los si
 ![configuracion2](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/4.JPG)
 ![configuracion3](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/5.JPG)
 ![configuracion4](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/6.JPG)
+
 ![configuracion5](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/7.JPG)
+
 ![configuracion6](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/8.JPG)
+
 ![configuracion7](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/9.JPG)
 
 En la configuración del proxy daremos aocntinuar ya que no configuraremos ninguno.
@@ -41,9 +44,13 @@ Vamos a elegir la primera versión que es la estandar.
 Nos pedirá la contraseña y que la repitamos para confirmarlo. Como escribimos una contraseña débil nos solicitará confirmar que queremos una contraseña débil.
 
 ![configuracion11](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/13.JPG)
+
 ![configuracion12](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/14.JPG)
+
 ![configuracion13](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/15.JPG)
+
 ![configuracion14](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/16.JPG)
+
 ![configuracion15](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/17.JPG)
 
 Ahora deberemos elegir el nombre de usuario y la contraseña para entrar en web. Deberemos repetir el proceso de la contraseña.
@@ -57,6 +64,7 @@ Una vez hayamos configurado todo lo anterior ya podremos acceder al sistema oper
 Ahora actualizaremos el sistema.
 
 ![actualización](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/20.JPG)
+
 ![actualización2](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/21.JPG)
 
 Una vez que hemos actualizado el sistema abriremos el navegador web y pondremos las credenciales para iniciar sesión (Las de ADMIN).
@@ -72,3 +80,29 @@ Iniciamos sesion con el usuario por defecto tsec y la contraseña configurada an
 Una vez iniciemos sesión ya nos aparecerá el panel de control.
 
 ![web3](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/25.JPG)
+
+## Registro en SHODAN
+
+Para realizar una comprobación con shodan primero debemos registranos en su página web: [SHODAN](https://www.shodan.io/)
+
+Una vez que nos hayamos registrado deberemos iniciar sesión y en nuestra página de usuario nos parecerá la APIKEY.
+
+![shodan](https://github.com/isaacperezb/HoneyPot/blob/main/shodan/1.JPG)
+
+Ahora que tenemos nuestra cuenta en SHODAN y la APIKEY deberemos irnos a la terminal de Kali Linux y poner el siguiente comando: pip install -U --user shodan 
+
+![shodan terminal](https://github.com/isaacperezb/HoneyPot/blob/main/shodan/2.JPG)
+
+Ahora iniciamos nuestra APIKEY.
+
+![APIKEY](https://github.com/isaacperezb/HoneyPot/blob/main/shodan/3.JPG)
+
+Como último paso vamos poner el terminal el comando msfconsole para inciar el Framework de Metaesploit.
+
+
+![msfconsole](https://github.com/isaacperezb/HoneyPot/blob/main/shodan/4.JPG)
+
+![metasploit iniciado](https://github.com/isaacperezb/HoneyPot/blob/main/shodan/5.JPG)
+
+### En el siguiente vídeo mostraré como realizar la comprobación en SHODAN para ver si reconoce como HoneyPot la máquina que hemos creado.
+
