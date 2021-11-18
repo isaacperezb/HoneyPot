@@ -37,9 +37,38 @@ Cundo nos vuelva a mostrar la página de instalación deberemos apagar la máqui
 Vamos a elegir la primera versión que es la estandar.
 
 ![configuracion10](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/12.JPG)
+
+Nos pedirá la contraseña y que la repitamos para confirmarlo. Como escribimos una contraseña débil nos solicitará confirmar que queremos una contraseña débil.
+
 ![configuracion11](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/13.JPG)
 ![configuracion12](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/14.JPG)
 ![configuracion13](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/15.JPG)
 ![configuracion14](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/16.JPG)
 ![configuracion15](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/17.JPG)
+
+Ahora deberemos elegir el nombre de usuario y la contraseña para entrar en web. Deberemos repetir el proceso de la contraseña.
+
 ![configuracion16](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/18.JPG)
+
+Una vez hayamos configurado todo lo anterior ya podremos acceder al sistema operativo. Debemos iniciar sesión con el usuario que viene por defecto (tsec) y la contraseña elegida por nosotros mismos.
+
+![terminal](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/19.JPG)
+
+Ahora actualizaremos el sistema.
+
+![actualización](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/20.JPG)
+![actualización2](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/21.JPG)
+
+Una vez que hemos actualizado el sistema abriremos el navegador web y pondremos las credenciales para iniciar sesión (Las de ADMIN).
+
+![admin](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/22.JPG)
+
+![web1](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/23.JPG)
+
+Iniciamos sesion con el usuario por defecto tsec y la contraseña configurada anteriormente para nuestro usuario.
+
+![web2](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/24.JPG)
+
+Una vez iniciemos sesión ya nos aparecerá el panel de control.
+
+![web3](https://github.com/isaacperezb/HoneyPot/blob/main/instalaci%C3%B3n/25.JPG)
