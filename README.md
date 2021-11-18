@@ -109,6 +109,6 @@ Como último paso vamos poner el terminal el comando msfconsole para inciar el F
 [vídeo comprobación shadon](https://youtu.be/JgRTjfF9h_Q)
 
 ## BIBLIOGRAFÍA
-- https://developer.shodan.io/api/requirements#
+
 - http://www.reydes.com/d/?q=Conocer_si_un_Servidor_es_un_Honeypot_desde_Shodan_utilizando_el_Modulo_auxiliary_gather_shodan_honeyscore
 - https://thesecuritysentinel.es/nuestro-primer-honeypot-paso-a-paso/
