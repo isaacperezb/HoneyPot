@@ -95,7 +95,7 @@ Podemos ver que no se termina de inicializar la conexión y ci cerramos la Honey
 
 En el siguiente vídeo configuraré la HoneyPot en el puerto 22 (SSH) e intentaremos realizar una ataque de fuerza bruta.
 
-Además miraremos el fichero de registro de instrusión.
+Además miraremos el fichero de registro de instrusiones.
 
 ## ENLACE AL VÍDEO
 
