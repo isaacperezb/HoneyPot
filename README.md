@@ -15,11 +15,12 @@ Hay más formas de instalar una HoneyPot como instalar una T-POT, crearla nosotr
 
 Vamos a instalar PentBox en un Ubuntu Desktop 21.04 para simular que es la máquina vulnerable y con un máquina Kali Linux vamos a simular que es el atacante.
 
-# IP UBUNTU
+### IP UBUNTU
 192.168.1.118
+
 ![ip_ubuntu](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/6.JPG)
 
-# IP Kali
+### IP Kali
 192.168.1.111
 
 Pasos para la instalación:
