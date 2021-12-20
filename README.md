@@ -23,6 +23,8 @@ Vamos a instalar PentBox en un Ubuntu Desktop 21.04 para simular que es la máqu
 ### IP Kali
 192.168.1.111
 
+![ip_kali](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/12.JPG)
+
 Pasos para la instalación:
 - sudo apt install -y ruby-full --> instalamos el lenguaje ruby
 - sudo apt install -y git --> instalamos la herramienta git
