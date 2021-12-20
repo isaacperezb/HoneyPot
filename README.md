@@ -70,7 +70,7 @@ Analizamos la red con el comando nmap 192.168.1.* para analizar todas las máqui
 
 ![analizar_red](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/5.JPG)
 
-Una vez cerrada haremos primero una prueba con un navegador externo y luego con metasploit.
+Una vez creada haremos primero una prueba con un navegador externo y luego con metasploit.
 
 ![navegador](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/7.JPG)
 
