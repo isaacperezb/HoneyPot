@@ -101,8 +101,6 @@ Además, miraremos el fichero de registro de intrusiones.
 
 
 
-
-
 ## BIBLIOGRAFÍA
 - https://www.youtube.com/watch?v=rT55ghLqniE
 - https://www.sevenlayers.com/index.php/255-pentbox-honeypot
