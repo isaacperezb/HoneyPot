@@ -2,18 +2,18 @@
 
 ## ¿Qué es una HoneyPot?
 
-Es una máquina en nuestra red que actúa como señuelo cuando los atacantes planean un ataque a nuestra red. Es decir, cuano nos rastrean la red en busca de vulnerabilidades esta máquina será la primera a por la que vayan ya que tendrá los puertos y servicios que el atacante busca de forma vulnerables y con esto conseguimos que nuestras máquinas reales que no queremos que sean atacadas estén protegidas y además obtendremos información del atacante.
-Es es como atraer a un carterista con una cartera falta mientras que la nuestra sabemos que está protegida porque se van a lanzar a robar la falsa, la "vulnerable".
+Es una máquina en nuestra red que actúa como señuelo cuando los atacantes planean un ataque a nuestra red. Es decir, cuando nos rastrean la red en busca de vulnerabilidades esta máquina será la primera a por la que vayan ya que tendrá los puertos y servicios que el atacante busca de forma vulnerables y con esto conseguimos que nuestras máquinas reales que no queremos que sean atacadas estén protegidas y además obtendremos información del atacante.
+Es como atraer a un carterista con una cartera falta mientras que la nuestra sabemos que está protegida porque se van a lanzar a robar la falsa, la "vulnerable".
 
 La función principal de la HoneyPot es detectar y obtener información del ataque informático.
-En este caso vamos a instalar PentBox, que es una suite de seguridad y pentesting basada en el lenguaje de programación ruby. Esta suite nos permite abrir el puerto que deseamos cubrir con la HoneyPot y una vez cerremos la HoneyPot este puerto volverá a cerrarse sin rigesgo a que se nos pueda olvidar cerrarlo.
+En este caso vamos a instalar PentBox, que es una suite de seguridad y pentesting basada en el lenguaje de programación ruby. Esta suite nos permite abrir el puerto que deseamos cubrir con la HoneyPot y una vez cerremos la HoneyPot este puerto volverá a cerrarse sin riesgo a que se nos pueda olvidar cerrarlo.
 
 Hay más formas de instalar una HoneyPot como instalar una T-POT, crearla nosotros mismos...
 
 
 # Instalación PentBox
 
-Vamos a instalar PentBox en un Ubuntu Desktop 21.04 para simular que es la máquina vulnerable y con un máquina Kali Linux vamos a simular que es el atacante.
+Vamos a instalar PentBox en un Ubuntu Desktop 21.04 para simular que es la máquina vulnerable y con una máquina Kali Linux vamos a simular que es el atacante.
 
 ### IP UBUNTU
 192.168.1.118
@@ -74,7 +74,7 @@ Una vez creada haremos primero una prueba con un navegador externo y luego con m
 
 ![navegador](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/7.JPG)
 
-Vemos que se están registrando las instrusiones de forma automática en el fichero de registros, que se activa al iniciar la HoneyPot.
+Vemos que se están registrando las intrusiones de forma automática en el fichero de registros, que se activa al iniciar la HoneyPot.
 
 ![metasploit](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/8.JPG)
 
@@ -82,22 +82,24 @@ Si cerramos la HoneyPot veremos que el puerto 80 se ha cerrado.
 
 ![puerto_cerrado](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/11.JPG)
 
-Ahora vamos a configurar la HoneyPot en el puerto 21 y haremos una prueba de conexión con Filezilla.
+Ahora vamos a configurar la HoneyPot en el puerto 21 y haremos una prueba de conexión con FileZilla.
 
 ![configurar_puerto_21](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/13.JPG)
 
 ![prueba_puerto_21](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/9.JPG)
 
-Podemos ver que no se termina de inicializar la conexión y ci cerramos la HoneyPot se cerrará la conexión por completo.
+Podemos ver que no se termina de inicializar la conexión y si cerramos la HoneyPot se cerrará la conexión por completo.
 
 ![conexion_finalizada](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/10.JPG)
 
 
-En el siguiente vídeo configuraré la HoneyPot en el puerto 22 (SSH) e intentaremos realizar una ataque de fuerza bruta.
+En el siguiente vídeo configuraré la HoneyPot en el puerto 22 (SSH) e intentaremos realizar un ataque de fuerza bruta.
 
-Además miraremos el fichero de registro de instrusiones.
+Además, miraremos el fichero de registro de intrusiones.
 
 ## ENLACE AL VÍDEO
+
+
 
 
 
