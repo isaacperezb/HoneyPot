@@ -82,7 +82,7 @@ Si cerramos la HoneyPot veremos que el puerto 80 se ha cerrado.
 
 ![puerto_cerrado](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/11.JPG)
 
-Ahora vamos a configurar la HoneyPot en el puerto 21 y haremos una prueba de conexión con FileZilla a lo bruto para ver si se recoge en el archivo de intrusiones (esta prueba puede hacerse mucho más profesional pero nos interesa saber que puede capturar las intrusiones de FTP).
+Ahora vamos a configurar la HoneyPot en el puerto 21 y haremos una prueba de conexión con FileZilla a lo bruto para ver si se recoge en el archivo de intrusiones (esta prueba puede hacerse mucho más profesional, pero nos interesa saber que puede capturar las intrusiones de FTP).
 
 ![configurar_puerto_21](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/13.JPG)
 
