@@ -96,7 +96,11 @@ Claro está que en cuanto cerremos la HoneyPot el puerto 21 se cerrará.
 
 Vamos a mirar en el fichero de intrusiones para ver que se han recogido todas las intrusiones que hemos realizado.
 
+![log_ruta](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/14.JPG)
 
+![log](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/15.JPG)
+
+Podemos observar que quedan registradas las intrusiones del puerto 80 ya que son las que más información nos aportan, mientras que el resto de intrusiones las vemos en tiempo real al iniciar la HoneyPot.
 
 En el siguiente vídeo configuraré la HoneyPot en el puerto 22 (SSH) e intentaremos realizar un ataque de fuerza bruta.
 
@@ -104,7 +108,7 @@ Además, miraremos el fichero de registro de intrusiones.
 
 ## ENLACE AL VÍDEO
 
-
+[video](]https://youtu.be/ZlZVe1mjNAc)
 
 ## BIBLIOGRAFÍA
 - https://www.youtube.com/watch?v=rT55ghLqniE
