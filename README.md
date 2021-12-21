@@ -74,7 +74,7 @@ Una vez creada haremos primero una prueba con un navegador externo y luego con m
 
 ![navegador](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/7.JPG)
 
-Vemos que se están registrando las intrusiones de forma automática en el fichero de registros, que se activa al iniciar la HoneyPot.
+Vemos que se están registrando las intrusiones de forma automática en el fichero de registros, que se activa al iniciar la HoneyPot, incluso sin el ataque lanzado del todo.
 
 ![metasploit](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/8.JPG)
 
@@ -82,7 +82,7 @@ Si cerramos la HoneyPot veremos que el puerto 80 se ha cerrado.
 
 ![puerto_cerrado](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/11.JPG)
 
-Ahora vamos a configurar la HoneyPot en el puerto 21 y haremos una prueba de conexión con FileZilla.
+Ahora vamos a configurar la HoneyPot en el puerto 21 y haremos una prueba de conexión con FileZilla a lo bruto para ver si se recoge en el archivo de intrusiones (esta prueba puede hacerse mucho más profesional pero nos interesa saber que puede capturar las intrusiones de FTP).
 
 ![configurar_puerto_21](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/13.JPG)
 
@@ -91,6 +91,11 @@ Ahora vamos a configurar la HoneyPot en el puerto 21 y haremos una prueba de con
 Podemos ver que no se termina de inicializar la conexión y si cerramos la HoneyPot se cerrará la conexión por completo.
 
 ![conexion_finalizada](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/10.JPG)
+
+Claro está que en cuanto cerremos la HoneyPot el puerto 21 se cerrará.
+
+Vamos a mirar en el fichero de intrusiones para ver que se han recogido todas las intrusiones que hemos realizado.
+
 
 
 En el siguiente vídeo configuraré la HoneyPot en el puerto 22 (SSH) e intentaremos realizar un ataque de fuerza bruta.
