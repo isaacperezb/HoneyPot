@@ -3,7 +3,7 @@
 ## ¿Qué es una HoneyPot?
 
 Es una máquina en nuestra red que actúa como señuelo cuando los atacantes planean un ataque a nuestra red. Es decir, cuando nos rastrean la red en busca de vulnerabilidades esta máquina será la primera a por la que vayan ya que tendrá los puertos y servicios que el atacante busca de forma vulnerables y con esto conseguimos que nuestras máquinas reales que no queremos que sean atacadas estén protegidas y además obtendremos información del atacante.
-Es como atraer a un carterista con una cartera falta mientras que la nuestra sabemos que está protegida porque se van a lanzar a robar la falsa, la "vulnerable".
+Es como atraer a un carterista con una cartera falsa mientras que la nuestra sabemos que está protegida porque se van a lanzar a robar la falsa, la "vulnerable".
 
 La función principal de la HoneyPot es detectar y obtener información del ataque informático.
 En este caso vamos a instalar PentBox, que es una suite de seguridad y pentesting basada en el lenguaje de programación ruby. Esta suite nos permite abrir el puerto que deseamos cubrir con la HoneyPot y una vez cerremos la HoneyPot este puerto volverá a cerrarse sin riesgo a que se nos pueda olvidar cerrarlo.
