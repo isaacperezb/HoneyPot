@@ -20,7 +20,7 @@ Vamos a instalar PentBox en un Ubuntu Desktop 21.04 para simular que es la máqu
 
 ![ip_ubuntu](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/6.JPG)
 
-### IP Kali
+### IP KALI
 192.168.1.111
 
 ![ip_kali](https://github.com/isaacperezb/HoneyPot/blob/main/PentBox/12.JPG)
